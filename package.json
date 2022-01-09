@@ -1,0 +1,13 @@
+{
+  "name": "todevice-collider",
+  "version": "0.0.0",
+  "description": "torture test for to-device msgs",
+  "main": "index.js",
+  "license": "Apache2",
+  "type": "module",
+  "dependencies": {
+    "loglevel": "^1.8.0",
+    "loglevel-timestamp": "^1.0.2",
+    "matrix-js-sdk": "^15.3.0"
+  }
+}
