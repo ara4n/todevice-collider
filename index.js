@@ -4,7 +4,8 @@ import crypto from "crypto";
 
 'use strict';
 
-// run as for i in `seq 0 7`; do node index.js $i &; done
+// run as: for i in `seq 0 7`; do node index.js $i &; done
+// kill as: alias killbg='kill -2 ${${(v)jobstates##*:*:}%=*}'
 
 // const quantum = 5000;
 // const pause = 1000;
